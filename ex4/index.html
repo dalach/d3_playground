@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>D3: Drawing divs, spaced out</title>
+    <script type="text/javascript" src="../d3/d3.v3.js"></script>
+    <style type="text/css">
+    
+      div.bar {
+        display: inline-block;
+        width: 20px;
+        height: 75px;
+        margin-right: 2px;
+        background-color: teal;
+      }
+      circle{
+        fill: teal;
+        stroke: orange;
+        stroke-width: 10px;
+      }
+      ellipse{
+        fill: orange;
+        stroke: teal;
+        stroke-width: 10px;
+        opacity: 0.5;
+      }
+    
+    </style>
+  </head>
+  <body>
+    
+    <svg width="500" height="500">
+      <circle cx="250" cy="100" r="25"/>
+      <ellipse cx="250" cy="65" rx="100" ry="25"/>
+      <line x1="0" y1="0" x2="500" y2="50" stroke="bla"/>
+      <text x="250" y="25" font-family="sans-serif" font-size="25" fill="teal">
+        Easy-peasy
+      </text>
+    </svg>
+    <script type="text/javascript">
+
+    
+    </script>
+  </body>
+</html>
